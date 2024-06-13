@@ -1,0 +1,101 @@
+.cat-pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    float: left;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.What {
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 23px;
+    float: left;
+    vertical-align: middle;
+    color: gray;
+    font-family: Arial;
+    margin-right: 150px;
+}
+.tweet-button {
+    background-color: rgb(94, 191, 255);
+    border-color: white;
+    color: white;
+    border-color: rgb(94, 191, 255);
+    border-style: solid;
+    border-radius: 19px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 25px;
+    cursor: pointer;
+    width: 90px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-top: 15px;
+    vertical-align: middle;
+    transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover {
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
+}
+.tweet-button:active {
+  color: rgb(94, 191, 255);
+  background-color: white;
+}
+
+.Email {
+  font-size: 20px;
+  margin-bottom: 8px;
+  margin-left: 2.4cm;
+}
+
+.Email-bar {
+  margin-left: 90px;
+  font-size: 20px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: white;
+  border-right-width: 2px;
+  border-left-width: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 315px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.Email-bar:hover {
+  width: 415px;
+}
+
+.text {
+  margin-left: 87px;
+  font-size: 15px;
+}
+
+.button {
+  background-color: rgb(89, 89, 255);
+  width: 350px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-color: rgb(89, 89, 255);
+  color: white;
+  font-size: 15px;
+  border-radius: 25px;
+  margin-left: 87px;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.button:active {
+  color: rgb(89, 89, 255);
+  background-color: white;
+}

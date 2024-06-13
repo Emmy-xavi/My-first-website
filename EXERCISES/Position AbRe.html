@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Absolute and relative positions</title>
+  </head>
+  <body style="
+  height: 3000px;
+  position: relative;">
+
+  <style>
+    .close {
+      position: absolute;
+      background-color: black;
+      color: white;
+      font-family: Arial;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      border-radius: 20px;
+      right: 0;
+      border-style: solid;
+      border-color: black;
+    }
+
+    .close:hover {
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .close:active {
+      background-color: white;
+      color: black;
+      border-color: white;
+    }
+
+    .close2 {
+      position: absolute;
+      background-color: black;
+      color: white;
+      font-family: Arial;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      border-radius: 20px;
+      left: -12px;
+      top: -12px;
+      border-style: solid;
+      border-color: black;
+    }
+
+    .close2:hover {
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .close2:active {
+      background-color: white;
+      color: black;
+      border-color: white;
+    }
+
+    .bottom-box {
+      position: absolute;
+      width: 320px;
+      height: 180px;
+      background-color: grey;
+      bottom: 0;
+      right: 0;
+    }
+
+    .time {
+      position: absolute;
+      color: white;
+      font-family: Arial;
+      background-color: black;
+      bottom: 5px;
+      right: 5px;
+      font-size: 14px;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+  </style>
+
+  <button class="close">X</button>
+
+  <div class="bottom-box">
+    <div class="time">0:29</div>
+    <button class="close2">X</button>
+  </div>
+  </body>
+</html>

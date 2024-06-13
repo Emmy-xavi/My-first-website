@@ -1,0 +1,112 @@
+.Whole-box {
+    width: 600px;
+    height: 390px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.Thumbnail {
+    position: relative;
+    width: 600px;
+    height: 300px;
+}
+
+.time {
+    position: absolute;
+    color: white;
+    background-color: black;
+    font-family: Arial;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 4px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 100px;
+}
+
+.channel-pic {
+    position: relative;
+    height: 100px;
+    width: 70px;
+    display: flex;
+    cursor: pointer;
+}
+
+.channel-pic:hover .tool-tip {
+    opacity: 1;
+}
+
+.tool-tip {
+    position: absolute;
+    background-color: white;
+    width: 260px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    left: 0;
+    bottom: -35px;
+    opacity: 0;
+    transition: opacity 0.25s;
+    padding-left: 10px;
+    pointer-events: none;
+}
+
+.tool-tip-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.tool-tip-content {
+    margin-left: 10px;
+}
+
+.content {
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    vertical-align: text-bottom;
+    width: 500px;
+    height: 100px;
+}
+
+.profile-pic {
+    width: 600px;
+    height: 300px;
+}
+
+.channel-1 {
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.title {
+    font-family: Arial;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.text-2,
+.text-1 {
+    font-family: Arial;
+    color: grey;
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+.whole-page {
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+    column-gap: 15px;
+    row-gap: 20px;
+}

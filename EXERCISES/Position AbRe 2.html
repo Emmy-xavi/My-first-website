@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Absolute and relative positions 2</title>
+  </head>
+  <body>
+    <style>
+      .container {
+        position: relative;
+        display: inline-block;
+      }
+
+      .text {
+        position: absolute;
+        font-family: Arial;
+        background-color: black;
+        color: white;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 15px;
+        top: 20px;
+        right: 0;
+      }
+      
+      .button {
+        position: relative;
+        background-color: white;
+        bottom: 12px;
+        padding-left: 150px;
+        padding-right: 150px;
+        height: 92px;
+        margin-top: -92px;
+        opacity: 0.7;
+      }
+
+      .button-text {
+        position: absolute;
+        background-color: whitesmoke;
+        color: black;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 2px;
+        border-color: rgb(131, 131, 131);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 20px;
+        bottom: 45px;
+        left: 140px;
+      }
+
+    </style>
+
+    <div class="container">
+      <img src="/Thumbnails/cap.jpg" alt="cap">
+
+      <div class="text">20% OFF</div>
+
+      <div class="button"></div>
+      <button class="button-text">Add to Cart</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Twitter text box</title>
+        <style>
+            .cat-pic {
+                width: 70px;
+                height: 70px;
+                border-radius: 35px;
+                float: left;
+                vertical-align: middle;
+                margin-left: 5px;
+                margin-bottom: 20px;
+            }
+
+            .What {
+                margin-left: 15px;
+                margin-top: 24px;
+                float: left;
+                vertical-align: middle;
+                color: gray;
+                font-family: Arial;
+                margin-right: 170px;
+            }
+            .tweet-button {
+                background-color: rgb(94, 191, 255);
+                border-color: white;
+                color: white;
+                border-color: rgb(94, 191, 255);
+                border-style: solid;
+                border-radius: 19px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 15px;
+                padding-right: 25px;
+                cursor: pointer;
+                width: 90px;
+                font-weight: bold;
+                font-size: 20px;
+                margin-left: 8px;
+                margin-top: 15px;
+                vertical-align: middle;
+                transition: box-shadow 0.15s;
+            }
+
+            .tweet-button:hover {
+                box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
+            }
+            .tweet-button:active {
+              color: rgb(94, 191, 255);
+              background-color: white;
+            }
+
+            .box {
+              box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
+              width: 550px;
+              padding-bottom: 20px;
+            }
+
+            .What-des {
+              border: none;
+              font-size: 14px;
+            }
+            </style>
+            </head>
+            <body>
+              <div class="box">
+                <img class="cat-pic" src="/Thumbnails/cat.webp" alt="cat">
+                <p class="What">
+                    <input class="What-des" type="text" placeholder="What's happening?">
+                </p>
+        
+                <a href="https://www.twitter.com"><button class="tweet-button">
+                    Tweet
+                </button></a>        
+              </div>
+            </body>
